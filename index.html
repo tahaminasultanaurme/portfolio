@@ -136,16 +136,17 @@
 
     <h2>Contact Me</h2>
 
-    <form onsubmit="sendMessage(); return false;">
-        <input type="text" id="name" placeholder="Your Name">
-        <input type="email" id="email" placeholder="Your Email">
-        <textarea id="message" placeholder="Your Message" rows="5" maxlength="200"></textarea>
-        <p id="counter">0 / 200 characters</p>
-        <button type="submit" class="hire-btn">Send Message</button>
-        <br>
-            <button class="hire-btn">Hire Me</button>
-    </form>
+   <form action="https://formsubmit.co/YOUR-EMAIL" method="POST">
 
+    <input type="text" name="name" placeholder="Your Name" required>
+
+    <input type="email" name="email" placeholder="Your Email" required>
+
+    <textarea name="message" placeholder="Your Message" required></textarea>
+
+    <button type="submit">Send Message</button>
+
+</form>
 </section>
             
         <a href="https://www.google.com">Visit Google</a>
