@@ -531,3 +531,60 @@ section {
     font-size: 16px;
     cursor: pointer;
 }
+#contact button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#contact button:hover {
+    transform: scale(1.05);
+}
+#contact input:focus,
+#contact textarea:focus {
+    outline: none;
+    border-width: 2px;
+    transform: scale(1.01);
+    transition: 0.2s;
+}
+@media (max-width: 600px) {
+    #contact form {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    #contact input,
+    #contact textarea {
+        font-size: 15px;
+    }
+
+    #contact button {
+        width: 100%;
+    }
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-links a {
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    transform: translateY(-3px);
+}
