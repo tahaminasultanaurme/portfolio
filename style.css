@@ -588,3 +588,73 @@ footer {
 .social-links a:hover {
     transform: translateY(-3px);
 }
+.projects-intro {
+text-align: center;
+max-width: 650px;
+margin: 0 auto 35px;
+line-height: 1.6;
+}
+
+.projects-container {
+max-width: 1100px;
+margin: auto;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 25px;
+}
+
+.project-card {
+padding: 28px;
+border-radius: 15px;
+transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+transform: translateY(-7px);
+}
+
+.project-icon {
+font-size: 35px;
+margin-bottom: 15px;
+}
+
+.project-card h3 {
+font-size: 22px;
+margin-bottom: 12px;
+}
+
+.project-card p {
+line-height: 1.7;
+margin-bottom: 18px;
+}
+
+.project-tech {
+display: flex;
+gap: 8px;
+flex-wrap: wrap;
+margin-bottom: 20px;
+}
+
+.project-tech span {
+padding: 5px 10px;
+border-radius: 5px;
+font-size: 13px;
+}
+
+.project-buttons {
+display: flex;
+gap: 10px;
+flex-wrap: wrap;
+}
+
+.project-btn {
+display: inline-block;
+padding: 10px 17px;
+text-decoration: none;
+border-radius: 7px;
+}
+
+.github-btn {
+background: transparent;
+border: 1px solid currentColor;
+}
