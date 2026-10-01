@@ -658,3 +658,74 @@ border-radius: 7px;
 background: transparent;
 border: 1px solid currentColor;
 }
+.contact-container {
+max-width: 1000px;
+margin: auto;
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 50px;
+align-items: center;
+}
+
+.contact-info {
+text-align: center;
+}
+
+.profile-photo {
+width: 180px;
+height: 180px;
+object-fit: cover;
+border-radius: 50%;
+margin-bottom: 20px;
+}
+
+.contact-info h2 {
+margin-bottom: 15px;
+}
+
+.contact-info p {
+line-height: 1.7;
+margin-bottom: 25px;
+}
+
+.social-links {
+display: flex;
+justify-content: center;
+gap: 15px;
+}
+
+.social-links a {
+text-decoration: none;
+padding: 9px 16px;
+border-radius: 7px;
+}
+
+.contact-form form {
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+width: 100%;
+padding: 13px;
+border: 1px solid #ccc;
+border-radius: 7px;
+font-family: inherit;
+font-size: 15px;
+box-sizing: border-box;
+}
+
+.contact-form textarea {
+resize: vertical;
+}
+
+.contact-form button {
+padding: 13px;
+border: none;
+border-radius: 7px;
+cursor: pointer;
+font-size: 16px;
+font-weight: bold;
+}
